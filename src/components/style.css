@@ -1,0 +1,63 @@
+.main{
+    margin:0;
+    padding: 0;
+    height: 100vh; 
+}
+
+.full-page{
+ 
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.container{
+    background:linear-gradient(to bottom,yellow, orange);
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-label{
+    display: block;
+    
+    position: absolute;
+    float: left;
+   
+}
+
+.login-input{
+    display: block;
+    margin: 30px;
+    
+}
+
+.navbar{
+    background-color:#333;
+    padding:10px 20px;
+}
+
+.nav-links{
+    list-style-type: none;
+
+}
+
+.nav-links li{
+    display: inline;
+    padding-right:30px ;
+}
+
+.body{
+    display: inline;
+}
+
+.card{
+    background:linear-gradient(to bottom,pink,violet);
+   float: left;
+    width: 300px;
+    height: 500px;
+}

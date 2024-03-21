@@ -1,0 +1,52 @@
+.login-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  .login-form {
+    width: 400px; /* Increased width for better spacing */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row; /* Arrange labels and inputs in a row */
+    align-items: center; /* Center vertically */
+  }
+  
+  .form-group label {
+    width: 100px; /* Set a fixed width for labels */
+    margin-right: 20px; /* Add right margin for spacing */
+  }
+  
+  .form-group input {
+    flex: 1; /* Use remaining space for inputs */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
