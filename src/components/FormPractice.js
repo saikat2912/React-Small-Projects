@@ -45,7 +45,7 @@ export default function FormPractice(){
                            
                         </div>
                         <div className="form-element">
-                            date-datepicker
+                            <div></div>
                         </div>
 
                     </div>
